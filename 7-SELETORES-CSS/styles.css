@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.yellow-text{
+    color: yellow;
+}
+
+.big-text{
+    font-size: 2em;
+}
+
+#europa-text{
+    font-size: 0.8em;
+    color: blue;
+}
