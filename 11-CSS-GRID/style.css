@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    min-height: 100vh;
+    background-color: black;
+    display: grid;
+    /* grid-template-columns:  repeat(3, 1fr); terá 3 linhas com 1 fr cada linha */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); terá 3 linhas com 1 fr cada linha */
+    grid-template-rows: repeat(3,1fr);
+    /* gap: 10px espaço entre as colunas */
+    gap: 10px;
+    align-content: center;
+    
+    
+}
+.item {
+    height: auto;
+    background-color: #bbb;
+    border: 1px solid black;
+    
+}
